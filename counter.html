@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>カウンター</title>
+</head>
+<body>
+   <p>回数:<span id="count">0</span></p>
+   <button id="btn">カウントアップ</button>
+
+   <script>
+     let count=0;
+     const countSpan-document.getElementById('count');
+     const btn=document.getElementById('btn');
+     btn.addEventListener('click',function(){
+       count=count+1;
+       countSpan.textContent=count;
+　  　});
+   </script>
+</body>
+</html>
